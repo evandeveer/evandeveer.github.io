@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin: 30;
+    margin: 0;
     padding: 50;
     height: 100vh;
 
@@ -12,4 +12,35 @@ body {
     margin: 5px; 
     width: 200px; 
     height: auto; 
+}
+
+
+
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+}
+
+.container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.btn {
+    background-color: #f0a500; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none;
+    font-size: 16px;
+   
+}
+
+.btn:hover {
+    background-color: #e08e00; 
 }
