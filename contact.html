@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>site test</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <h1>Contact</h1>
+
+        <form action="https://www.je-code.com/" method="post">
+
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required>
+            <br><br>
+
+            <label for="civilite">Civilite :</label><br>
+            <select id="civilite" name="civilite">
+                <option value="homme">Homme</option>
+                <option value="femme">Femme</option>
+            </select>
+            <br></br>
+            
+
+            <label for="telephone">Telephone :</label><br>
+            <input type="text" id="telephone" name="telephone" placeholder="Entrez votre numéro" required>
+            <br><br>
+
+            <label for="mail">E-mail :</label><br>
+            <input type="text" id="mail" name="mail" placeholder="Entrez votre e-mail" required>
+            <br><br>
+
+            <label for="pays">Pays :</label><br>
+            <select id="pays" name="pays">
+                <option value="france">France</option>
+                <option value="canada">Canada</option>
+                <option value="belgique">Belgique</option>
+            </select><br><br>  
+
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" placeholder="Entrez votre message" required></textarea><br><br>
+
+            <input type="checkbox" id="conservation" name="conservation" required>
+            <label for="conservation">J’autorise la conservation de mes données.</label><br><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </body>
+</html>
