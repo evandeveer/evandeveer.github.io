@@ -27,12 +27,16 @@
             
 
             <strong><label for="telephone">Telephone :</label></strong><br>
-            <input type="text" id="telephone" name="telephone" placeholder="Entrez votre numéro" required>
+            <input type="text" id="telephone" name="telephone" placeholder="Entrez votre numéro" required pattern="^0[1-9][0-9]{8}$">
             <br><br>
 
             <strong><label for="mail">E-mail :</label></strong><br>
-            <input type="text" id="mail" name="mail" placeholder="Entrez votre e-mail" required>
+            <input type="text" id="mail" name="mail" placeholder="Entrez votre e-mail" required 
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
             <br><br>
+
+            <strong><label for="mail">Date de naissance :</label></strong><br>
+            <input type="date" id="date_naissance" name="date_naissance"><br><br>
 
             <strong><label for="pays">Pays :</label></strong><br>
             <select id="pays" name="pays">
