@@ -18,29 +18,20 @@
         <form action="https://www.je-code.com/" method="post"><br><br>
 
             <strong><label for="nom">Nom :</label><br></strong>
-            <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" autofocus required
-            oninvalid="this.setCustomValidity('Veuillez entrer un nom.')"
-            oninput="this.setCustomValidity('')">
+            <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" autofocus required>
             <br><br>
 
             <strong><label for="civilite">Civilite :</label></strong><br>
-            <select id="civilite" name="civilite">
-                <option value="homme">Homme</option>
-                <option value="femme">Femme</option>
-            </select>
+            Mr <input type="radio" name="civilite" required> Mme <input type="radio" name="civilite">
             <br></br>
             
 
             <strong><label for="telephone">Telephone :</label></strong><br>
-            <input type="text" id="telephone" name="telephone" placeholder="Entrez votre numéro" required
-            oninvalid="this.setCustomValidity('Veuillez entrer un numéro de téléphone.')"
-            oninput="this.setCustomValidity('')">
+            <input type="text" id="telephone" name="telephone" placeholder="Entrez votre numéro" required>
             <br><br>
 
             <strong><label for="mail">E-mail :</label></strong><br>
-            <input type="text" id="mail" name="mail" placeholder="Entrez votre e-mail" required
-            oninvalid="this.setCustomValidity('Veuillez entrer une adresse email.')"
-            oninput="this.setCustomValidity('')">
+            <input type="text" id="mail" name="mail" placeholder="Entrez votre e-mail" required>
             <br><br>
 
             <strong><label for="pays">Pays :</label></strong><br>
