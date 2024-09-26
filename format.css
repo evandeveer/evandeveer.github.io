@@ -20,7 +20,9 @@ header {
     background-color: #333; 
     color: #fff; 
     padding: 20px 0;
-    border-radius: 20%;
+    border-radius: 0%;
+    border-color: #e08e00;
+
 }
 
 .container {
@@ -44,12 +46,4 @@ header {
 
 .btn:hover {
     background-color: #e08e00; 
-}
-
-label {
-    font-weight: 700;
-    font-size: 16px; 
-    color: #333; 
-    margin-bottom: 5px; 
-    display: block; 
 }
