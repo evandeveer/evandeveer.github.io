@@ -18,7 +18,9 @@
         <form action="https://www.je-code.com/" method="post"><br><br>
 
             <strong><label for="nom">Nom :</label><br></strong>
-            <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required>
+            <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required
+            oninvalid="this.setCustomValidity('Veuillez entrer un nom.')"
+            oninput="this.setCustomValidity('')">
             <br><br>
 
             <strong><label for="civilite">Civilite :</label></strong><br>
@@ -30,11 +32,15 @@
             
 
             <strong><label for="telephone">Telephone :</label></strong><br>
-            <input type="text" id="telephone" name="telephone" placeholder="Entrez votre numéro" required>
+            <input type="text" id="telephone" name="telephone" placeholder="Entrez votre numéro" required
+            oninvalid="this.setCustomValidity('Veuillez entrer un numéro de téléphone.')"
+            oninput="this.setCustomValidity('')">
             <br><br>
 
             <strong><label for="mail">E-mail :</label></strong><br>
-            <input type="text" id="mail" name="mail" placeholder="Entrez votre e-mail" required>
+            <input type="text" id="mail" name="mail" placeholder="Entrez votre e-mail" required
+            oninvalid="this.setCustomValidity('Veuillez entrer une adresse email.')"
+            oninput="this.setCustomValidity('')">
             <br><br>
 
             <strong><label for="pays">Pays :</label></strong><br>
@@ -47,7 +53,9 @@
             <strong><label for="message">Message :</label></strong><br>
             <textarea id="message" name="message" placeholder="Entrez votre message" required></textarea><br><br>
 
-            <input type="checkbox" id="conservation" name="conservation" required>
+            <input type="checkbox" id="conservation" name="conservation" required 
+            oninvalid="this.setCustomValidity('Veuillez accepter la conservation des données.')"
+            oninput="this.setCustomValidity('')">
             <label for="conservation">J’autorise la conservation de mes données.</label><br><br>
 
             <input type="submit" value="Envoyer">
