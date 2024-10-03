@@ -5,6 +5,7 @@ body {
     margin: 30;
     padding: 50;
     height: 100vh;
+    border: 2px solid green;
 }
 
 #code_img {
@@ -12,6 +13,11 @@ body {
     margin: 5px; 
     width: 200px; 
     height: auto; 
+}
+
+#content{
+    margin: 1em;
+    padding: 1em;
 }
 
 
@@ -47,3 +53,10 @@ header {
 }
 
 
+a:hover{
+    color: #e08e00;
+}
+
+h1, .vert{
+    color: #0fe000;
+}
